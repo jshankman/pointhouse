@@ -163,8 +163,8 @@ public class RevokeAndClaimWindow {
         }  catch (Ex.ValueMismatch e) {
             // TODO: Solve value mismatch errors. We have a few options.
             // 1) Try taking away pledges to see if we can get precisely to the target value, e.g. this can
-            //    help if everyone agrees up front to pledge 1 BTC exactly, and the goal is 10, but nobody
-            //    knows how many people will pledge so we might end up with 11 or 12 BTC. In this situation
+            //    help if everyone agrees up front to pledge 1 PTC exactly, and the goal is 10, but nobody
+            //    knows how many people will pledge so we might end up with 11 or 12 PTC. In this situation
             //    we can just randomly drop pledges until we get to the right amount (or allow the user to choose).
             // 2) Find a way to extend the Bitcoin protocol so the additional money can be allocated to the
             //    project owner and not miners. For instance by allowing new SIGHASH modes that control which
@@ -173,7 +173,7 @@ public class RevokeAndClaimWindow {
             // This should never happen in server assisted mode.
             log.error("Value mismatch: " + e);
             informationalAlert(tr("Too much money"),
-                    // TRANS: %s = difference in BTC
+                    // TRANS: %s = difference in PTC
                     tr("You have gathered pledges that add up to more than the goal. The excess cannot be " +
                             "redeemed in the current version of the software and would end up being paid completely " +
                             "to miners fees. Please remove some pledges and try to hit the goal amount exactly. " +
