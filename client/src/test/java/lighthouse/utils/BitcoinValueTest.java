@@ -27,6 +27,6 @@ public class BitcoinValueTest {
 
     @Test(expected = NumberFormatException.class)
     public void tooNotNumeric() throws Exception {
-        userInputToSatoshis("1.0 mBTC");   // TODO: Maybe make this valid later.
+        userInputToSatoshis("1.0 mPTC");   // TODO: Maybe make this valid later.
     }
 }
