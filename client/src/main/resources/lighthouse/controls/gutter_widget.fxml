@@ -12,7 +12,7 @@
                 <Label text="by you" styleClass="pledged-by-label" maxWidth="Infinity"
                        alignment="CENTER_LEFT" HBox.hgrow="ALWAYS"/>
                 <Label fx:id="byYouValue" text="XX"/>
-                <Label fx:id="byYouValueBTC" text="BTC" styleClass="currency-type-label"/>
+                <Label fx:id="byYouValueBTC" text="PTC" styleClass="currency-type-label"/>
             </children>
         </HBox>
         <HBox alignment="CENTER_RIGHT" fx:id="allValueBox">
@@ -20,7 +20,7 @@
                 <Label text="all" styleClass="pledged-by-label" maxWidth="Infinity"
                        alignment="CENTER_LEFT" HBox.hgrow="ALWAYS"/>
                 <Label fx:id="allValue" text="XX"/>
-                <Label fx:id="allBTC" text="BTC" styleClass="currency-type-label"/>
+                <Label fx:id="allBTC" text="PTC" styleClass="currency-type-label"/>
                 <ProgressIndicator fx:id="allLoading" prefHeight="20" prefWidth="20"/>
             </children>
         </HBox>
@@ -29,7 +29,7 @@
                 <Label text="goal" styleClass="pledged-by-label" maxWidth="Infinity"
                        alignment="CENTER_LEFT" HBox.hgrow="ALWAYS"/>
                 <Label fx:id="goalValue" text="XX"/>
-                <Label text="BTC" styleClass="currency-type-label"/>
+                <Label text="PTC" styleClass="currency-type-label"/>
             </children>
         </HBox>
     </children>
