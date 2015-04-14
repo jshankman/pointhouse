@@ -28,9 +28,9 @@ msgstr ""
 msgid "Copy to clipboard"
 msgstr ""
 
-#. TRANS: %s = goal amount in BTC
+#. TRANS: %s = goal amount i0n PTC
 #, c-format
-msgid "PLEDGED OF %s BTC GOAL"
+msgid "PLEDGED OF %s PTC GOAL"
 msgstr ""
 
 msgid "Edit"
@@ -146,8 +146,8 @@ msgstr ""
 msgid "QR code"
 msgstr ""
 
-#. TRANS: %s = amount in BTC
-msgid "%s BTC raised so far"
+#. TRANS: %s = amount in PTC
+msgid "%s PTC raised so far"
 msgstr ""
 
 msgid "Loading ..."
@@ -326,7 +326,7 @@ msgstr ""
 msgid "Name, email and message will be public."
 msgstr ""
 
-#. TRANS: %s = example BTC amount limit
+#. TRANS: %s = example PTC amount limit
 msgid "e.g. %s"
 msgstr ""
 
@@ -520,7 +520,7 @@ msgstr ""
 msgid "Too much money"
 msgstr ""
 
-#. TRANS: %s = difference in BTC
+#. TRANS: %s = difference in PTC
 msgid ""
 "You have gathered pledges that add up to more than the goal. The excess "
 "cannot be redeemed in the current version of the software and would end up "
