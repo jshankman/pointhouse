@@ -76,7 +76,7 @@ public class PledgeWindow extends InnerWindow {
         checkState(!max.isNegative());
         this.min = min;
         log.info("Max {}    Min {}", max, min);
-        // TRANS: %s = example BTC amount limit
+        // TRANS: %s = example PTC amount limit
         amountEdit.setPromptText(String.format(tr("e.g. %s"), max.toPlainString()));
     }
 
