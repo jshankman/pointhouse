@@ -54,26 +54,31 @@ please invent a new name and logo for it first. Thanks.
 
 # building from source
 
-Building Lighthouse from source requires the [Maven](http://maven.apache.org/) build tool and the [bitcoinj](http://bitcoinj.github.io/) library.
+Building Lighthouse from source requires the [Maven](http://maven.apache.org/) build tool and the [pointcoinj](http://github.com/jshankman/pointcoinj/) library.
 
-The latest version of bitcoinj should be [installed from source](https://github.com/bitcoinj/bitcoinj):
+The latest version of pointcoinj should be [installed from source](https://github.com/jshankman/pointcoinj):
 
 ```
-$ git clone https://github.com/bitcoinj/bitcoinj
-$ cd bitcoinj
-$ mvn clean install
+$ git clone https://github.com/jshankman/pointcoinj
+$ cd pointcoinj
+$ mvn clean install -DskipTests
 ```
 
 Compile Lighthouse with:
 
 ```
-$ git clone https://github.com/vinumeris/lighthouse
-$ cd lighthouse
-$ mvn clean package
+$ git clone https://github.com/jshankman/pointhouse
+$ cd pointhouse
+$ mvn clean package -DskipTests
 ```
 
 Run Lighthouse with:
 
 ```
 $ java -jar client/target/shaded.jar
+```
+or
+
+```
+$ ./pointcoin.sh
 ```
