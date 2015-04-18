@@ -1,8 +1,8 @@
-Lighthouse
+Pointhouse
 ==========
 
-Lighthouse is a decentralised, peer to peer crowdfunding application that uses the smart contracts features of the
-Bitcoin protocol. It lets you create projects and pledge to those projects.
+Pointhouse is a decentralised, peer to peer crowdfunding application that uses the smart contracts features of the
+Bitcoin protocol. It lets you create projects and pledge to those projects. This is a fork of vinumeris' Lighthouse application that runs on the PointCoin network. As such, most of the contact information refers to vinumeris.
 
 Visit the web site:
 
@@ -23,9 +23,9 @@ If you're a developer, build instructions are at the end of this README.
 
 # how to tweak the user interface
 
-You can do some work on the UI without being a Java developer. If you have web design experience modifying the Lighthouse
+You can do some work on the UI without being a Java developer. If you have web design experience modifying the Pointhouse
 UI will seem quite familiar. Ask for a binary build if you don't want to compile the app yourself, and then run 
-Lighthouse with the --resdir=/path/to/ui/files flag. It should point to the client/src/main/resources/lighthouse
+Pointhouse with the --resdir=/path/to/ui/files flag. It should point to the client/src/main/resources/lighthouse
 directory from this git repository. You can use the Shortcut+S key combination to reload the UI whilst the app
 is running. Shortcut is the Cmd key on a Mac and Control key on Windows/Linux. The UI is defined by the CSS files
 and FXML files (similar to HTML but different language).
@@ -54,7 +54,7 @@ please invent a new name and logo for it first. Thanks.
 
 # building from source
 
-Building Lighthouse from source requires the [Maven](http://maven.apache.org/) build tool and the [pointcoinj](http://github.com/jshankman/pointcoinj/) library.
+Building Pointhouse from source requires the [Maven](http://maven.apache.org/) build tool and the [pointcoinj](http://github.com/jshankman/pointcoinj/) library.
 
 The latest version of pointcoinj should be [installed from source](https://github.com/jshankman/pointcoinj):
 
